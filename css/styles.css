@@ -69,6 +69,7 @@ a {
 .menu > li a:hover {
   color: #0866FF;
   background-color: #F0F2F5;
+  /* box-shadow: 0 0 5px gray; */
 }
 
 .menu > li a:active {
@@ -90,9 +91,9 @@ a {
 }
 
 .login:hover {
-	background: #F0F2F5;
+	background: #fff;
 	color: #000;
-  border: 1px solid gray;
+  box-shadow: 0 0 5px gray;
 }
 
 /* Gallery */
@@ -210,7 +211,6 @@ a {
 
 .right-menu {
   position: fixed;
-  top 0;
   bottom: 5rem;
   right: 3rem;
   z-index: 10;
