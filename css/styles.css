@@ -177,7 +177,7 @@ a {
 
 .left-menu {
   position: fixed;
-  bottom: 50%;
+  top: 50%;
   left: 0;
   z-index: 10;
   border-radius: 6px;
